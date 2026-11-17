@@ -1,4 +1,4 @@
-package com.multistop.entity;
+package com.multi.multistop.entity;
 
 import jakarta.persistence.*;
 import lombok.Getter;
@@ -7,7 +7,7 @@ import lombok.NoArgsConstructor;
 import java.util.*;
 import java.time.LocalDateTime;
 import java.math.BigDecimal;
-import com.multistop.enums.BookingStatus;
+import com.multi.enums.BookingStatus;
 
 @Entity
 @Table(name="bookings")
