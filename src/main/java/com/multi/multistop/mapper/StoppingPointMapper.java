@@ -3,8 +3,9 @@ package com.multi.multistop.mapper;
 import com.multi.multistop.dto.request.StoppingPointRequestDTO;
 import com.multi.multistop.dto.response.StoppingPointResponseDTO;
 import com.multi.multistop.entity.StoppingPoint;
-import com.mapstruct.Mapper;
-import com.mapstruct.Mapping;
+import org.mapstruct.Mapper;
+import org.mapstruct.Mapping;
+
 
 @Mapper(componentModel = "spring")
 public interface StoppingPointMapper {

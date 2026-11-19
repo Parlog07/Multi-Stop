@@ -3,8 +3,8 @@ package com.multi.multistop.mapper;
 import com.multi.multistop.dto.request.TripRequestDTO;
 import com.multi.multistop.dto.response.TripResponseDTO;
 import com.multi.multistop.entity.Trip;
-import com.mapstruct.Mapper;
-import com.mapstruct.Mapping;
+import org.mapstruct.Mapper;
+import org.mapstruct.Mapping;
 
 @Mapper(
         componentModel = "spring",
