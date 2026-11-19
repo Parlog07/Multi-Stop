@@ -1,4 +1,7 @@
 package com.multi.multistop.enums;
 
-public class BookingStatus {
+
+public enum BookingStatus {
+    CONFIRMED,
+    CANCELLED
 }

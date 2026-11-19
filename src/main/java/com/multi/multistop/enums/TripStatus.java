@@ -1,4 +1,10 @@
 package com.multi.multistop.enums;
 
-public class TripStatus {
+
+public enum TripStatus {
+    PUBLISHED,
+    FULL,
+    COMPLETED,
+    CANCELLED
 }
+
