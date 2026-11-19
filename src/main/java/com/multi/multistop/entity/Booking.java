@@ -4,10 +4,9 @@ import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.NoArgsConstructor;
-import java.util.*;
 import java.time.LocalDateTime;
 import java.math.BigDecimal;
-import com.multi.enums.BookingStatus;
+import com.multi.multistop.enums.BookingStatus;
 
 @Entity
 @Table(name="bookings")
