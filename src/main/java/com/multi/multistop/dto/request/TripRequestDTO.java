@@ -1,4 +1,4 @@
-package org.carpooling.platform.dto.request;
+package com.multi.multistop.dto.request;
 
 
 import java.util.List;
