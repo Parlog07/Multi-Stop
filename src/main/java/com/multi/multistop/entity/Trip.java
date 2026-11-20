@@ -63,7 +63,6 @@ public class Trip {
                 .filter(booking -> booking.getStatus() == BookingStatus.CONFIRMED)
                 .mapToInt(Booking::getNumberOfSeats)
                 .sum();
-
         return seatsOffered - bookedSeats;
     }
 }
